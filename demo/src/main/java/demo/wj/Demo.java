@@ -12,6 +12,8 @@ public class Demo {
         list.add(2);
         list.add(2);
         list.add(2);
-        list.forEach(x -> System.out.println(x));
+        list.forEach(System.out::println);
+
+
     }
 }
